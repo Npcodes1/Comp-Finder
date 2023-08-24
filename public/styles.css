@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #000;
+}
+
+body {
+    background-color: beige;
+}
+
+header {
+    background-image: url(images/book-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 8rem;
+}
+
+header h1 {
+    color: #fff;
+    font-size: 60px;
+    text-shadow: 4px 4px #000;
+}
+
+main {
+    margin: 30px;
+
+}
+
+h2 {
+    margin: 2rem 0;
+}
+
+.form {
+    text-align: center;
+}
+
+.btn {
+    padding: 3px;
+    margin: 1rem;
+    border-radius: 15%;
+}
+
+footer {
+    position: absolute;
+    bottom: 2%;
+    right: 50%;
+}
