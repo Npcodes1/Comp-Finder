@@ -25,25 +25,45 @@ header h1 {
 
 main {
     margin: 30px;
-
+    height: 500px;
 }
 
-h2 {
+main>.comp {
+    padding-top: 80px;
+}
+
+main>.comp>h2 {
     margin: 2rem 0;
 }
+
+/* Form Section */
 
 .form {
     text-align: center;
 }
 
-.btn {
-    padding: 3px;
-    margin: 1rem;
-    border-radius: 15%;
+.form input[type=text] {
+    width: 400px;
+    padding: 10px;
+    text-align: left;
 }
 
+/* Search Button */
+
+.btn {
+    padding: 10px;
+    margin: 1rem;
+    border-radius: 15%;
+    background-color: #553939;
+    color: #fff;
+}
+
+/* Footer Section */
+
 footer {
-    position: absolute;
-    bottom: 2%;
-    right: 50%;
+    height: 20px;
+}
+
+footer>.footer-copyright-wrapper {
+    margin-bottom: 20px;
 }
